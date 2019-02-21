@@ -15,7 +15,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @EnableEurekaServer
 @SpringBootApplication
 @EnableAspectJAutoProxy(proxyTargetClass = true)
-@EnableAutoConfiguration
+//@EnableAutoConfiguration
 public class VsrApplication {
     public static void main(String[] args) {
         SpringApplication.run(VsrApplication.class, args);

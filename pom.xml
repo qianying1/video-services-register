@@ -41,10 +41,10 @@
             <version>1.3.8.RELEASE</version>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+        </dependency>-->
 
         <!-- 微服务 -->
         <dependency>
