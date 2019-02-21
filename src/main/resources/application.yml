@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  context-path: /vsr
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  application:
+    name: video-services-register
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
